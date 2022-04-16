@@ -94,6 +94,8 @@ set tm=500
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+" Show line numbers, both absolute and relative
+set number relativenumber
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
