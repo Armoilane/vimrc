@@ -1,13 +1,13 @@
 "
 " Settings
 "
-"
+" Not operational yet, looking  into these in the future
 " set <leader>
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
-" let mapleader=","
-let mapleader="\<Space>"
-let maplocalleader="\<Space>"
+"let mapleader=","
+"let mapleader="<Space>"
+"let maplocalleader="<Space>"
 "
 " 
 " Use vim settings, not vi
