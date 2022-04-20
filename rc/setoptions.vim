@@ -84,7 +84,7 @@ set background=dark
 set termguicolors
 
 " Cursorline is needed to make behavior consistent with terminal windows
-set cursorline
+"set cursorline
 
 " Set to auto read when a file is changed from the outside
 set autoread
