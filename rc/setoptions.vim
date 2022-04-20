@@ -9,7 +9,7 @@
 "let mapleader="<Space>"
 "let maplocalleader="<Space>"
 "
-" 
+"
 " Use vim settings, not vi
 " This must be first, because it changes other options
 set nocompatible
@@ -28,8 +28,8 @@ set smarttab
 set shiftround
 set shiftwidth=2
 set softtabstop=2 " for backspace
-set tabstop=2
-set expandtab
+set tabstop=8
+set noexpandtab " Uses mix of tabs and spaces - expandtab uses only spaces
 set autoindent
 
 " Show line numbers
