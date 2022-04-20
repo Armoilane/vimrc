@@ -12,5 +12,7 @@ endif
 " Loads Plug up
 call plug#begin('~/.vim/plugged')
 
+source ~/.vim/rc/plugins.vim
+
 call plug#end()
 
