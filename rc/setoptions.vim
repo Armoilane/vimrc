@@ -12,7 +12,7 @@
 "
 " Use vim settings, not vi
 " This must be first, because it changes other options
-set nocompatible
+" set nocompatible
 
 " How many lines vim has to remember
 set history=500
