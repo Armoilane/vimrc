@@ -35,12 +35,18 @@ set autoindent
 " Show line numbers
 set number
 
+" Show the cursor position all the time
+set ruler
+
 " Search settings
 set ignorecase
-set incsearch
 set smartcase
 set hlsearch
-
+" Do incremental search if it's possible to timeout
+if has('reltime')
+  set incsearch
+endif
+s
 " Don't redraw while executing macros (good performance config)
 set lazyredraw
 
@@ -53,7 +59,7 @@ set showmatch
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
-" Backspace on EOL, start, indent
+" Allow backspacing over everything in insert mode
 set backspace=eol,start,indent
 
 " You should make the directories
