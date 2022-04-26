@@ -9,12 +9,3 @@ source $HOME/.vim/rc/setoptions.vim
 source $HOME/.vim/rc/plug.vim
 source $HOME/.vim/rc/mappings.vim
 source $HOME/.vim/rc/autocmd.vim
-
-""""""""""""""""""""""""""""""
-" => Visual mode related
-""""""""""""""""""""""""""""""
-" Visual mode pressing * or # searches for the current selection
-" Super useful! From an idea by Michael Naumann
-vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
-" vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
-
