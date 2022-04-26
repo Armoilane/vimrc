@@ -18,10 +18,6 @@
 set history=500
 set undolevels=500
 
-" Style
-set background=dark
-set termguicolors
-
 " SignColumn
 set signcolumn=yes
 
@@ -29,6 +25,11 @@ set signcolumn=yes
 filetype on
 filetype plugin indent on
 syntax enable
+
+" Style
+set background=dark
+set termguicolors
+colorscheme solarized
 
 " default tab settings
 set smarttab
