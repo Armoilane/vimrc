@@ -18,6 +18,13 @@
 set history=500
 set undolevels=500
 
+" Style
+set background=dark
+set termguicolors
+
+" SignColumn
+set signcolumn=yes
+
 " Syntax Highlighting
 filetype on
 filetype plugin indent on
