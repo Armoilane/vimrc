@@ -42,11 +42,8 @@ set ruler
 set ignorecase
 set smartcase
 set hlsearch
-" Do incremental search if it's possible to timeout
-if has('reltime')
-  set incsearch
-endif
-s
+set incsearch
+
 " Don't redraw while executing macros (good performance config)
 set lazyredraw
 
@@ -63,9 +60,9 @@ set mat=2
 set backspace=eol,start,indent
 
 " You should make the directories
-set backup
-set backupdir=~/.vim/backup
-set directory=~/.vim/swap
+"set backup
+"set backupdir=~/.vim/backup
+"set directory=~/.vim/swap
 
 " Encoding and line ending settings
 set encoding=utf8
