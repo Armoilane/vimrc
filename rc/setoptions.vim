@@ -65,11 +65,11 @@ set backspace=eol,start,indent
 "set directory=~/.vim/swap
 
 " Encoding and line ending settings
-set encoding=utf8
-set fileencoding=utf8
-set fileencodings=utf8,cp949,latin1,utf16le
-set fileformat=unix
-set fileformats=unix,dos
+"set encoding=utf8
+"set fileencoding=utf8
+"set fileencodings=utf8,cp949,latin1,utf16le
+"set fileformat=unix
+"set fileformats=unix,dos
 
 " Window related
 set splitright
@@ -85,6 +85,14 @@ set mouse=a
 " Style
 set background=dark
 set termguicolors
+
+"Set contrast - before 'colorscheme gruvbox-material'
+let g:gruvbox_material_background = 'medium'
+
+" For better performance
+let g:gruvbox_material_better_performance = 1
+
+colorscheme gruvbox-material
 
 " Cursorline is needed to make behavior consistent with terminal windows
 "set cursorline
