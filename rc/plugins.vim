@@ -9,3 +9,6 @@ Plug 'sheerun/vim-polyglot'
 " git-gutter shows a git diff in the 'gutter'
 " It shows if a line is modified, added or removed
 Plug 'airblade/vim-gitgutter'
+
+" Colorscheme gruvbox-material
+Plug 'sainnhe/gruvbox-material'
