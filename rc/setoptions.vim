@@ -86,8 +86,9 @@ set mouse=a
 set background=dark
 set termguicolors
 
-"Set contrast - before 'colorscheme gruvbox-material'
-let g:gruvbox_material_background = 'medium'
+" Set contrast - this comes before 'colorscheme gruvbox-material'
+" Available values: 'hard', 'medium' (default) and 'soft'
+let g:gruvbox_material_background = 'hard'
 
 " For better performance
 let g:gruvbox_material_better_performance = 1
