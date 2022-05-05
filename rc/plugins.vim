@@ -10,5 +10,5 @@ Plug 'sheerun/vim-polyglot'
 " It shows if a line is modified, added or removed
 Plug 'airblade/vim-gitgutter'
 
-" Colorscheme
-Plug 'ericbn/vim-solarized'
+" Colorscheme gruvbox-material
+Plug 'sainnhe/gruvbox-material'

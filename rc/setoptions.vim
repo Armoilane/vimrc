@@ -68,9 +68,9 @@ set mat=2
 set backspace=eol,start,indent
 
 " You should make the directories
-"set backup
-"set backupdir=~/.vim/backup
-"set directory=~/.vim/swap
+set backup
+set backupdir=~/.vim/backup
+set directory=~/.vim/swap
 
 " Encoding and line ending settings
 set encoding=utf8
@@ -94,6 +94,15 @@ set mouse=a
 set background=dark
 set termguicolors
 
+" Set contrast - this comes before 'colorscheme gruvbox-material'
+" Available values: 'hard', 'medium' (default) and 'soft'
+let g:gruvbox_material_background = 'hard'
+
+" For better performance
+let g:gruvbox_material_better_performance = 1
+
+colorscheme gruvbox-material
+
 " Cursorline is needed to make behavior consistent with terminal windows
 "set cursorline
 
@@ -110,3 +119,7 @@ if !exists(":DiffOrig")
     \ | wincmd p | diffthis
 endif
 
+" SignColumn highlight settings
+" Without this the SignColumn bg is light grey. I don't know where it's set
+" and thus if there's a better place to set it.
+highlight SignColumn guibg=black
