@@ -26,11 +26,6 @@ filetype on
 filetype plugin indent on
 syntax enable
 
-" Style
-set background=dark
-set termguicolors
-colorscheme solarized
-
 " default tab settings
 set smarttab
 set shiftround
