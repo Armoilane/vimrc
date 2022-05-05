@@ -60,9 +60,9 @@ set mat=2
 set backspace=eol,start,indent
 
 " You should make the directories
-"set backup
-"set backupdir=~/.vim/backup
-"set directory=~/.vim/swap
+set backup
+set backupdir=~/.vim/backup
+set directory=~/.vim/swap
 
 " Encoding and line ending settings
 set encoding=utf8
