@@ -65,11 +65,11 @@ set backspace=eol,start,indent
 "set directory=~/.vim/swap
 
 " Encoding and line ending settings
-"set encoding=utf8
-"set fileencoding=utf8
-"set fileencodings=utf8,cp949,latin1,utf16le
-"set fileformat=unix
-"set fileformats=unix,dos
+set encoding=utf8
+set fileencoding=utf8
+set fileencodings=utf8,cp949,latin1,utf16le
+set fileformat=unix
+set fileformats=unix,dos
 
 " Window related
 set splitright
