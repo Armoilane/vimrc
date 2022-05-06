@@ -114,7 +114,3 @@ if !exists(":DiffOrig")
     \ | wincmd p | diffthis
 endif
 
-" SignColumn highlight settings
-" Without this the SignColumn bg is light grey. I don't know where it's set
-" and thus if there's a better place to set it.
-highlight SignColumn guibg=black
