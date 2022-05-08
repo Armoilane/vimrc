@@ -114,3 +114,6 @@ if !exists(":DiffOrig")
     \ | wincmd p | diffthis
 endif
 
+" Set netrw explorer width
+let g:netrw_winsize = 25
+
