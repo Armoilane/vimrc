@@ -114,6 +114,7 @@ if !exists(":DiffOrig")
     \ | wincmd p | diffthis
 endif
 
-" Set netrw explorer width
-let g:netrw_winsize = 25
+" Set how netrw opens files
+" 1: hsplit, 2: vsplit, 3: tabnew, 4: previous window
+let g:netrw_browse_split=2
 
